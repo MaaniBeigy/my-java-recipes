@@ -10,14 +10,14 @@ public class Intro {
         float Weight = 68.2f;
         boolean IsActive = true;
         // Print out the variables.
-        System.out.print("I am " + Name + "!\n");
-        System.out.print("You can call me " + Initials + "!\n");
-        System.out.print("I'm " + Age + " years old" + "!\n");
-        System.out.print("Not that is none of your business but my height is " + Height + " centimeters" + "!\n");
-        System.out.print("And my weight is " + Weight + " kilograms" + "!\n");
-        System.out.print("It's " + IsActive + " :-) \n");
+        System.out.println("I am " + Name + "!\n");
+        System.out.println("You can call me " + Initials + "!\n");
+        System.out.println("I'm " + Age + " years old" + "!\n");
+        System.out.println("Not that is none of your business but my height is " + Height + " centimeters" + "!\n");
+        System.out.println("And my weight is " + Weight + " kilograms" + "!\n");
+        System.out.println("It's " + IsActive + " :-) \n");
         int Items = 108;
         int Residue = Items % 5; // calculated variable
-        System.out.print("I can give you " + Residue + " books!");
+        System.out.println("I can give you " + Residue + " books!");
     }
 }
