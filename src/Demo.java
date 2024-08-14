@@ -6,5 +6,6 @@ class Demo {
         String name = sc.nextLine();
         int Age = sc.nextInt();
         System.out.println(name + " is " + Age + " years old!");
+        sc.close();
     }
 }
